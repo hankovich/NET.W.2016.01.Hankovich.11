@@ -16,10 +16,10 @@ namespace Task1.Logic
         {
             long prelast = 1;
             long last = 0;
-            long current;
             while (true)
             {
                 yield return last;
+                long current;
                 try
                 {
                     checked
